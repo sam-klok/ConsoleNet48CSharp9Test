@@ -15,6 +15,9 @@ namespace ConsoleNet48CSharp9Test
             // is not null is c# 9.0 feature
             if (person is not null)
                 Console.WriteLine($"Name: {person.FirstName} {person.LastName}");
+
+            Console.WriteLine("Press any key..");
+            Console.ReadKey();
         }
     }
 }

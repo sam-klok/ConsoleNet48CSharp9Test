@@ -2,4 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/ConsoleNet48CSharp9Test/obj/Debug
+/ConsoleNet48CSharp9Test/obj
+/ConsoleNet48CSharp9Test/bin

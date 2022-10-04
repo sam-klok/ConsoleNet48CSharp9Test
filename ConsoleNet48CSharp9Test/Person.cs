@@ -10,7 +10,7 @@ namespace ConsoleNet48CSharp9Test
     public record Person(string FirstName, string LastName)
     {
         //Person(string FirstName, string LastName);
-        public string FirstName { get; set; } = default!;
-        public string LastName { get; set; } = default!;
+        public string FirstName { get; set; } = FirstName;
+        public string LastName { get; set; } = LastName;
     }
 }
